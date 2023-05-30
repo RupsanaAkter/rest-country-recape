@@ -11,7 +11,6 @@ const displayCountry=(countries)=>{
     //console.log(allCountryHTML[0]);
 const container=document.getElementById('countries');
 container.innerHTML=allCountryHTML.join('');
-
 }
 //option----------3
 const getCountryHTML=({name,flags,area,region
